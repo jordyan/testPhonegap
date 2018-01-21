@@ -15,6 +15,38 @@ routes = [
     path: '/kamar/',
     url: './pages/kamar.html',
   },
+  {
+    path: '/CRUDkamar/',
+    url: './pages/CRUDkamar.html',
+  },
+  {
+    path: '/pelanggan/',
+    url: './pages/pelanggan.html',
+  },
+  {
+    path: '/CRUDpelanggan/',
+    url: './pages/CRUDpelanggan.html',
+  },
+  {
+    path: '/fasilitas/',
+    url: './pages/fasilitas.html',
+  },
+  {
+    path: '/CRUDfasilitas/',
+    url: './pages/CRUDfasilitas.html',
+  },
+  {
+    path: '/sewaKamar/',
+    url: './pages/sewaKamar.html',
+  },
+  {
+    path: '/CRUDsewaKamar/',
+    url: './pages/CRUDsewaKamar.html',
+  },
+  {
+    path: '/CRUDsewaKamar2/',
+    url: './pages/CRUDsewaKamar2.html',
+  },
   // Left View Pages
   {
     path: '/left-page-1/',

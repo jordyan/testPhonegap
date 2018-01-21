@@ -31,3 +31,17 @@
   content: '';
   z-index: 6000;
 }
+div.backgroundimg { display: block; width: 100%; height: 400px}
+
+div.backgroundimg::before {
+ position: absolute;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  background:url(images/modernApartment) no-repeat center;
+  content: "";
+  display: block;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

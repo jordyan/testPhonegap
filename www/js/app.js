@@ -44,12 +44,12 @@ var mainView = app.views.create('.view-main', {
 $$('#my-login-screen .login-button').on('click', function () {
   var username = $$('#my-login-screen [name="username"]').val();
   var password = $$('#my-login-screen [name="password"]').val();
-
+  $$('#username').html(username);
   // Close login screen
   app.loginScreen.close('#my-login-screen');
 
   // Alert username and password
-  app.dialog.alert('Welcome: ' + username );
+  //app.dialog.alert('Welcome: ' + username );
 });
 app.on('sortableSort', function (listEl, indexes) {
   console.log(indexes);
